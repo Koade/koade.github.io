@@ -1,0 +1,39 @@
+/* fix voor ie10 op windowsphone */
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+/* einde fix */
+
+@media (min-width: 975px) { 
+	.cross {
+		display: none !important;
+	}
+}
+
+@media (min-width: 975px) { 
+	.hamburger {
+		display: none !important;
+	}
+}
+
+@media (max-width: 975px) {
+	.hamburger {
+		display: block;
+		float: right;
+		height: 30px;
+		width: auto;
+		margin-top: 15px;
+	}
+}
+
+@media (min-width: 975px) { 
+	.hamburger-menu {
+		display: none !important;
+	}
+}
+
+.dditem {
+	display: none;
+}
