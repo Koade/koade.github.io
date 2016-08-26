@@ -4,3 +4,20 @@ $(".hamburger, .cross").toggleClass("invis");
 $(".hamburger-menu").toggleClass("invis");
 });
 });
+
+$(document).ready(function() {
+$(".nav-item").hover(function() {
+$(this).css("background-color","#cc1817");
+$(this p).css("color","#ffffff");
+}, function() {
+$(this).css("background-color","#ffffff");
+$(this p).css("color","#f18700");
+});
+});
+
+$(document).ready(function() {
+$(".ddmenu, .dditem").hover(function() {
+$(".dditem").css("display","block");
+}, function() {
+$(".dditem").css("display","none");
+});
