@@ -6,6 +6,10 @@
 @viewport           { width: device-width; }
 /* einde fix */
 
+ @font-face { 
+ 	font-family: Nordic; src: url('nordicrnd.ttf'); 
+ }
+
 footer {
 	background-color: #ffffff;
 	bottom: 0;
@@ -13,18 +17,18 @@ footer {
 	right: 0;
 	display: block;
 	position: fixed;
-	width: 60%;
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 5px;
-	border-top-left-radius: 35px;
-	border-top-right-radius: 35px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 h1 {
 	color: #f18700;
 	text-align: center;
-	font-family: Century Gothic, sans-serif;
+	font-family: Nordic, Century Gothic, sans-serif;
 }
 
 p {
@@ -67,6 +71,7 @@ body {
 
 .container {
 	background-color: #ffffff;
+	border-radius: 20px;
 }
 
 .content {
@@ -77,13 +82,24 @@ body {
 	display: none;
 }
 
+.footer {
+	vertical-align: middle;
+}
+
 .jumbotron {
 	/*background-image: url("/images/collage.jpg");*/
-	width: 90%;
+	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+
+.jumbopic {
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 .logopic {
@@ -100,11 +116,11 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 80%;
+	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom-left-radius: 35px;
-	border-bottom-right-radius: 35px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 .navbar a {
