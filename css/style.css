@@ -95,11 +95,12 @@ body {
 	background-color: #ffffff;
 }
 
-.jumbopic {
+.jumboimg {
 	height: 250px;
 	display: block;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
+	padding: 0px;	
 }
 
 .logopic {
