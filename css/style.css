@@ -63,9 +63,9 @@ p {
 	}
 }
 
-body {
+html {
 	/*background-color: #F18700;*/
-	background: linear-gradient(#F18601. #CF1B19);
+	background: linear-gradient(#F18601, #CF1B19);
 	background-size: cover;
 	/*min-height: 100vh;*/
 }
