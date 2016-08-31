@@ -64,9 +64,10 @@ p {
 }
 
 body {
-	background-color: #F18700;
+	/*background-color: #F18700;*/
+	background: linear-gradient(#F18601. #CF1B19);
 	background-size: cover;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 }
 
 .container {
