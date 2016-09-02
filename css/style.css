@@ -7,7 +7,7 @@
 /* einde fix */
 
  @font-face { 
- 	font-family: Nordic; src: url('nordicrnd.ttf'); 
+ 	font-family: NordicRND; src: url('PTF-NORDIC-Rnd.ttf'); 
  }
 
 .footer {
@@ -34,7 +34,7 @@
 h1 {
 	color: #f18700;
 	text-align: center;
-	font-family: Nordic, Century Gothic, sans-serif;
+	font-family: NordicRND, Century Gothic, sans-serif;
 }
 
 p {
@@ -73,7 +73,7 @@ body {
 	/*background-color: #F18700;*/
 	background: linear-gradient(#F18601, #CF1B19);
 	background-size: cover;
-	min-height: 70vh;
+	min-height: 75vh;
 }
 
 .container {
@@ -90,12 +90,7 @@ body {
 	display: none;
 }
 
-.footer {
-	vertical-align: middle;
-}
-
 .jumbotron {
-	/*background-image: url("/images/collage.jpg");*/
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -104,7 +99,8 @@ body {
 }
 
 .jumboimg {
-	height: 250px;
+	max-height: 250px;
+	max-width: 90%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -119,7 +115,7 @@ body {
 	display: block;
 }
 
-.navbar {
+.navibar {
 	display: block;
 	background-color: #ffffff;
 	position: fixed;
@@ -132,7 +128,7 @@ body {
 	border-bottom-right-radius: 20px;
 }
 
-.navbar a {
+.navibar a {
 	font-size: 1.25em;
 }
 
