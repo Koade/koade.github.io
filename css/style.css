@@ -137,7 +137,14 @@ body {
 }
 
 .fronttext {
+	font-size: 2.5em;
+	text-align: center;
+	color: #F18601;
+}
+
+.fronth2 {
 	font-size: 1.5em;
+	color: #CF1B19;
 }
 
 .logopic {
