@@ -68,10 +68,10 @@ p {
 @media (max-width: 975px) {
 	.hamburger {
 		display: block;
-		float: right;
+		margin-left: auto;
+		margin-right: auto;
 		height: 30px;
 		width: auto;
-		margin-top: 15px;
 	}
 }
 
@@ -81,7 +81,7 @@ p {
 	}
 }
 
-@media (min-width: 975px) { 
+@media (max-width: 975px) { 
 	p, h1, h2 {
 		color: #ffffff !important;
 	}
@@ -91,6 +91,12 @@ p {
 	.container {
 		background-color: #ffffff;
 		border-radius: 20px;
+	}
+}
+
+@media (max-width: 975px) { 
+	.navibar {
+		width: 40%; 
 	}
 }
 
@@ -105,6 +111,12 @@ p {
 	.footer {
 		width: 100%; !important;
 		border-radius: 0px;
+	}
+}
+
+@media (min-height: -width: 975px) { 
+	.jumboimg {
+		background-color: #ffffff;
 	}
 }
 
@@ -135,7 +147,7 @@ body {
 	margin-top: 2vh;
 	margin-bottom: 3vh;
 	padding: 0px;
-	background-color: #ffffff;
+
 }
 
 .jumboimg {
