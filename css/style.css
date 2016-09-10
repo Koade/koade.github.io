@@ -81,13 +81,13 @@ p {
 	}
 }
 
-@media (max-width: 975px) { 
+@media (max-width: 600px) { 
 	p, h1, h2 {
 		color: #ffffff !important;
 	}
 }
 
-@media (min-width: 975px) { 
+@media (min-width: 600px) { 
 	.container {
 		background-color: #ffffff;
 		border-radius: 20px;
@@ -114,9 +114,17 @@ p {
 	}
 }
 
-@media (min-height: -width: 975px) { 
+@media (min-height: width: 600px) { 
 	.jumboimg {
 		background-color: #ffffff;
+	}
+}
+
+@media (max-height: width: 600px) { 
+	.jumbotron {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 
