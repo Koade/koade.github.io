@@ -88,7 +88,13 @@ p {
 }
 
 @media (max-width: 750px) { 
-	footer-item p, nav-item p {
+	footer-item p {
+		color: #F18601 !important;
+	}
+}
+
+@media (max-width: 750px) { 
+	nav-item p {
 		color: #F18601 !important;
 	}
 }
