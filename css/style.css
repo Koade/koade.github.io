@@ -87,6 +87,12 @@ p {
 	}
 }
 
+@media (max-width: 750px) { 
+	footer-item p, nav-item p {
+		color: #F18601 !important;
+	}
+}
+
 @media (min-width: 750px) { 
 	.container {
 		background-color: #ffffff;
@@ -211,8 +217,7 @@ body {
 .navibar {
 	display: block;
 	background-color: #ffffff;
-	position: fixed;
-	top: 0;
+
 	left: 50%;
 	transform: translateX(-50%);
 	width: 65%;
@@ -220,6 +225,11 @@ body {
 	margin-right: auto;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+}
+
+.nav-wrap {
+	position: fixed;
+	top: 0;
 }
 
 .navibar a {
