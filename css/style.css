@@ -36,14 +36,14 @@ a:hover {
 }
 
 h1 {
-	color: #f18700;
+	color: #f18601;
 	text-align: center;
 	font-family: NordicRND, Century Gothic, sans-serif;
 	font-size: 2.5em;
 }
 
 h2 {
-	color: #f18700;
+	color: #f18601;
 	text-align: center;
 	font-family: NordicRND, Century Gothic, sans-serif;
 	font-size: 1.8em;
@@ -148,7 +148,7 @@ p {
 
 body {
 	background: linear-gradient(#F18601, #CF1B19);
-	background-color: #F18700;
+	background-color: #F18601;
 	background-size: cover;
 	min-height: 75vh;
 }
@@ -161,8 +161,23 @@ body {
 	padding: 10px;
 }
 
+.cross {
+		display: block;
+		float: right;
+		height: 30px;
+		width: auto;
+}
+
 .dditem {
 	display: none;
+}
+
+.fullwidth {
+	width: 100% !important;
+}
+
+.hamburger-menu-item {
+	color: #F18601;
 }
 
 .invis {
@@ -246,10 +261,11 @@ body {
 .nav-item {
 	padding: 0px;
 	text-align: center;
+	border-radius: 20px;
 }
 
 .nav-item p {
-	color: #F18700;
+	color: #F18601;
 	font-family: Century Gothic, sans-serif;
 	padding: 5px;
 }
