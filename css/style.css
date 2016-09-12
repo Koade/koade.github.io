@@ -151,6 +151,7 @@ body {
 
 .content {
 	margin-top: 25vh;
+	margin-bottom: 10vh;
 	padding: 10px;
 }
 
@@ -201,7 +202,7 @@ body {
 }
 
 .footer-item p {
-	color: #F18700;
+	color: #F18601;
 	font-family: Century Gothic, sans-serif;
 	padding: 5px;
 }
@@ -217,7 +218,8 @@ body {
 .navibar {
 	display: block;
 	background-color: #ffffff;
-
+	position: fixed;
+	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 65%;
@@ -225,12 +227,6 @@ body {
 	margin-right: auto;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-}
-
-.nav-wrap {
-	position: fixed;
-	top: 0;
-	height: 25vh;
 }
 
 .navibar a {
