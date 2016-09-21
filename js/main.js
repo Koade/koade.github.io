@@ -19,7 +19,9 @@ $(this).css("color","#f18601");
 $(document).ready(function() {
 $(".ddmenu, .dditem").hover(function() {
 $(".dditem").css("display","block");
+$(".content").css("margin-top","50vh")
 }, function() {
 $(".dditem").css("display","none");
+$(".content").css("margin-top","25vh")
 });
 });
