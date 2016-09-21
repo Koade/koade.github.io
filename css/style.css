@@ -269,3 +269,8 @@ body {
 	font-family: Century Gothic, sans-serif;
 	padding: 5px;
 }
+
+.tekst {
+	text-align: center;
+	color: #F18601;
+}
