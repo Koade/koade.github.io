@@ -16,7 +16,7 @@ $(this).css("color","#f18601");
 });
 });
 
-$(document).ready(function() {
+/* $(document).ready(function() {
 $(".ddmenu, .dditem").hover(function() {
 $(".dditem").css("display","block");
 $(".content").css("margin-top","40vh")
@@ -24,4 +24,4 @@ $(".content").css("margin-top","40vh")
 $(".dditem").css("display","none");
 $(".content").css("margin-top","25vh")
 });
-});
+}); */

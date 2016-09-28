@@ -7,7 +7,8 @@
 /* einde fix */
 
  @font-face { 
- 	font-family: NordicRND; src: url('PTF-NORDIC-Rnd.ttf'); 
+ 	font-family: 'NordicRND'; 
+ 	src: url('PTF-NORDIC-Rnd.ttf'); 
  }
 
 a:hover {
@@ -100,6 +101,12 @@ p {
 }
 
 @media (max-width: 750px) { 
+	.voorwaardentekst {
+		color: #ffffff !important;
+	}
+}
+
+@media (max-width: 750px) { 
 	.fronttekst {
 		color: #ffffff !important;
 	}
@@ -171,7 +178,10 @@ body {
 	min-height: 75vh;
 }
 
-
+.anita {
+	display: inline;
+	max-height: 30vh;
+}
 
 .content {
 	margin-top: 25vh;
@@ -186,8 +196,24 @@ body {
 		width: auto;
 }
 
-.dditem {
+/* .dditem {
 	display: none;
+} */
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	min-width: 18%;
+}
+
+.dropdown-content a:hover {
+	background-color: #F18601;
+	color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
 }
 
 .fullwidth {
