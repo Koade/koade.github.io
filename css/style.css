@@ -11,6 +11,11 @@
  	src: url('PTF-NORDIC-Rnd.ttf'); 
  }
 
+  @font-face { 
+ 	font-family: Custom; 
+ 	src: url('customfont.ttf'); 
+ }
+
 a:hover {
 	text-decoration: none;
 }
@@ -39,7 +44,7 @@ a:hover {
 h1 {
 	color: #f18601;
 	text-align: center;
-	font-family: NordicRND, Century Gothic, sans-serif;
+	font-family: Custom, NordicRND, Century Gothic, sans-serif;
 	font-size: 2.5em;
 }
 
@@ -200,19 +205,19 @@ body {
 	display: none;
 } */
 
-.dropdown-content {
+.drop-down-content {
 	display: none;
 	position: absolute;
 	background-color: #ffffff;
 	min-width: 18%;
 }
 
-.dropdown-content a:hover {
+.drop-down-content a:hover {
 	background-color: #F18601;
 	color: #ffffff;
 }
 
-.dropdown:hover .dropdown-content {
+.drop-down:hover .drop-down-content {
 	display: block;
 }
 
