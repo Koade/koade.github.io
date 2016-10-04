@@ -216,6 +216,8 @@ body {
 	position: absolute;
 	background-color: #ffffff;
 	min-width: 18%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 .drop-down-content a:hover {
@@ -323,6 +325,14 @@ body {
 	color: #F18601;
 	font-family: Century Gothic, sans-serif;
 	padding: 5px;
+}
+
+.nav-item:hover .nav-item {
+	background-color: #f18601;
+}
+
+.nav-item:hover .nav-item p {
+	color: #ffffff;
 }
 
 .tekst {
