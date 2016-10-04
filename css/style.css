@@ -180,7 +180,7 @@ body {
 	background: linear-gradient(#F18601, #CF1B19);
 	background-color: #F18601;
 	background-size: cover;
-	min-height: 75vh;
+	min-height: 77vh;
 }
 
 .afbeelding {
@@ -195,6 +195,8 @@ body {
 .anita {
 	display: inline-block;
 	max-height: 25vh;
+	vertical-align: right;
+	margin: 20px;
 }
 
 .content {

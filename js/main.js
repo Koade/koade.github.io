@@ -9,10 +9,10 @@ $(".navibar").toggleClass("fullwidth");
 $(document).ready(function() {
 $(".nav-item").hover(function() {
 $(this).css("background-color","#F18601");
-$('p', this).css("color","#ffffff !important");
+$(this).find('p').css("color","#ffffff !important");
 }, function() {
 $(this).css("background-color","#ffffff");
-$('p', this).css("color","#f18601");
+$(this).find('p').css("color","#f18601");
 });
 });
 
