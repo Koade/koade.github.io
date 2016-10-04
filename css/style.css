@@ -195,7 +195,7 @@ body {
 .anita {
 	display: inline-block;
 	max-height: 25vh;
-	vertical-align: right;
+	float: right;
 	margin: 20px;
 }
 
