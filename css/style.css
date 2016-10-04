@@ -183,6 +183,12 @@ body {
 	min-height: 75vh;
 }
 
+.afbeelding {
+	height: 20vh;
+	width: auto;
+	margin: 10px;
+}
+
 .anita {
 	display: inline;
 	max-height: 30vh;
