@@ -186,18 +186,19 @@ body {
 .afbeelding {
 	height: 20vh;
 	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	margin: 10px;
 }
 
 .anita {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: inline-block;
 	max-height: 25vh;
 }
 
 .content {
-	margin-top: 25vh;
+	margin-top: 23vh;
 	margin-bottom: 10vh;
 	padding: 10px;
 }
@@ -220,7 +221,6 @@ body {
 	min-width: 18%;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-	top: -4px;
 }
 
 .drop-down-content a:hover {
