@@ -223,6 +223,7 @@ body {
 	min-width: 18%;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	margin-top: -5px;
 }
 
 .drop-down-content a:hover {
@@ -318,6 +319,14 @@ body {
 
 .navcontainer {
 	text-align: center;
+}
+
+.nav-highlight {
+	background-color: #F18601;
+}
+
+.nav-highlight p {
+	color: #ffffff !important;
 }
 
 .nav-item {

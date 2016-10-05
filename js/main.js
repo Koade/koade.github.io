@@ -8,13 +8,20 @@ $(".navibar").toggleClass("fullwidth");
 
 $(document).ready(function() {
 $(".nav-item").hover(function() {
+$(this).toggleClass(".nav-highlight");
+});
+});
+
+
+/* $(document).ready(function() {
+$(".nav-item").hover(function() {
 $(this).css("background-color","#F18601");
 $(this).find('p').css("color","#ffffff !important");
 }, function() {
 $(this).css("background-color","#ffffff");
 $(this).find('p').css("color","#f18601");
 });
-});
+}); */
 
 /* $(document).ready(function() {
 $(".ddmenu, .dditem").hover(function() {
