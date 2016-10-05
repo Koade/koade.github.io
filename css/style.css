@@ -16,6 +16,11 @@
  	src: url('customfont.ttf'); 
  }
 
+ 
+a {
+	color: #CF1B19;
+}
+
 a:hover {
 	text-decoration: none;
 }
@@ -52,25 +57,24 @@ h1 {
 }
 
 h2 {
-	color: #f18601;
+	color: #CF1B19;
 	text-align: center;
 	font-family: NordicRND, Century Gothic, sans-serif;
 	font-size: 1.8em;
 }
 
+li {
+	font-family: Century Gothic, sans-serif;
+}
+
 p {
 	font-family: Century Gothic, sans-serif;
+	color: #F18601;
 }
 
 @media (min-width: 975px) { 
 	.cross {
 		display: none !important;
-	}
-}
-
-@media (min-width: 750px) { 
-	a {
-		color: #F18601;
 	}
 }
 
@@ -241,7 +245,7 @@ body {
 	border-bottom-right-radius: 20px;
 	border-style: none solid solid solid;
 	border-width: 0 2px 2px 2px;
-	border-color: #F18601;		
+	border-color: #CF1B19;		
 	margin-top: -5px;
 }
 
@@ -350,7 +354,7 @@ body {
 }
 
 .highlight {
-	background-color: #F18601;
+	background-color: #F18601 !important;
 }
 
 .highlight p {
@@ -370,11 +374,11 @@ body {
 }
 
 .nav-item:hover .nav-item {
-	background-color: #f18601;
+	background-color: #f18601 !important;
 }
 
 .nav-item:hover .nav-item p {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .tekst {
