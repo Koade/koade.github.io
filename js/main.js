@@ -8,7 +8,7 @@ $(".navibar").toggleClass("fullwidth");
 
 $(document).ready(function() {
 $(".nav-item").hover(function() {
-$(this).toggleClass(".nav-highlight");
+$(this).toggleClass(".highlight");
 });
 });
 

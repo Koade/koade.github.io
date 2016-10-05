@@ -33,6 +33,9 @@ a:hover {
 	padding-top: 5px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
+	border-style: solid solid none solid;
+	border-width: 2px 2px 0 2px;
+	border-color: #CF1B19;
 	vertical-align: middle;
 	text-align: center;
 }
@@ -118,14 +121,14 @@ p {
 }
 
 @media (max-width: 750px) { 
-	footer-item p {
-		color: #F18601 !important;
+	.footer-item p {
+		color: #F18601;
 	}
 }
 
 @media (max-width: 750px) { 
-	nav-item p {
-		color: #F18601 !important;
+	.nav-item p {
+		color: #F18601;
 	}
 }
 
@@ -207,7 +210,8 @@ body {
 
 .cross {
 		display: block;
-		float: right;
+		margin-left: auto;
+		margin-right: auto;
 		height: 30px;
 		width: auto;
 }
@@ -223,6 +227,9 @@ body {
 	min-width: 18%;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	border-style: none solid solid solid;
+	border-width: 0 2px 2px 2px;
+	border-color: #F18601;		
 	margin-top: -5px;
 }
 
@@ -237,6 +244,12 @@ body {
 
 .fullwidth {
 	width: 100% !important;
+}
+
+.hamburger-menu {
+	border-style: none solid solid solid;
+	border-width: 0 2px 2px 2px;
+	border-color: #F18601;		
 }
 
 .hamburger-menu-item {
@@ -311,6 +324,9 @@ body {
 	margin-right: auto;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	border-style: none solid solid solid;
+	border-width: 0 2px 2px 2px;
+	border-color: #CF1B19;	
 }
 
 .navibar a {
@@ -321,11 +337,11 @@ body {
 	text-align: center;
 }
 
-.nav-highlight {
+.highlight {
 	background-color: #F18601;
 }
 
-.nav-highlight p {
+.highlight p {
 	color: #ffffff !important;
 }
 
