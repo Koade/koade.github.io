@@ -68,6 +68,12 @@ p {
 	}
 }
 
+@media (min-width: 750px) { 
+	a {
+		color: #F18601;
+	}
+}
+
 @media (min-width: 975px) { 
 	.hamburger {
 		display: none !important;
@@ -105,6 +111,12 @@ p {
 @media (max-width: 750px) { 
 	.tekst {
 		color: #ffffff !important;
+	}
+}
+
+@media (max-width: 750px) { 
+	p {
+		color: #ffffff;
 	}
 }
 
