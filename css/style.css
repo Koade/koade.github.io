@@ -107,6 +107,13 @@ p {
 }
 
 @media (max-width: 750px) { 
+	a {
+		color: #337ab7 !important;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 750px) { 
 	.mail {
 		color: #ffffff !important;
 	}
