@@ -22,9 +22,9 @@ $(this).Class(".nav-item");
 
 $(document).ready(function() {
 $(".nav-item").hover(function() {
-$(this).removeClass(".nav-item").addClass(".highlight");
+$(this).removeClass("nav-item").addClass("highlight");
 }, function() {
-$(this).removeClass(".highlight").addClass(".nav-item");
+$(this).removeClass("highlight").addClass("nav-item");
 });
 });
 
