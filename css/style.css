@@ -262,13 +262,17 @@ body {
 	width: 100% !important;
 }
 
-.hamburger-menu {
+/*.hamburger-menu {
 	border-style: none solid solid solid;
 	border-width: 0 2px 2px 2px;
 	border-color: #F18601;		
-}
+}*/
 
 .hamburger-menu-item {
+	color: #F18601;
+}
+
+.hamburger-menu p {
 	color: #F18601;
 }
 
@@ -281,7 +285,7 @@ body {
 	margin-top: 2vh;
 	margin-bottom: 0;
 	padding: 0px;
-	background-color: #ffffff;
+	background: transparent;
 }
 
 .jumboimg {
@@ -354,11 +358,16 @@ body {
 }
 
 .highlight {
-	background-color: #F18601 !important;
+	background-color: #F18601;
+	padding: 0px;
+	text-align: center;
+	border-radius: 20px;
 }
 
 .highlight p {
-	color: #ffffff !important;
+	color: #ffffff;
+	font-family: Century Gothic, sans-serif;
+	padding: 5px;	
 }
 
 .nav-item {

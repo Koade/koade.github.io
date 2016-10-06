@@ -9,9 +9,16 @@ $(".navibar").toggleClass("fullwidth");
 $(document).ready(function() {
 $(".nav-item").hover(function() {
 $(this).toggleClass(".highlight");
+$(this).toggleClass(".nav-item");
 });
 });
 
+$(document).ready(function() {
+$(".highlight").hover(function() {
+$(this).toggleClass(".highlight");
+$(this).toggleClass(".nav-item");
+});
+});
 
 /* $(document).ready(function() {
 $(".nav-item").hover(function() {
