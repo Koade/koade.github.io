@@ -7,16 +7,16 @@ $(".navibar").toggleClass("fullwidth");
 });
 
 $(document).ready(function() {
-$(".nav-item").hover(function() {
-$(this).toggleClass(".highlight");
-$(this).toggleClass(".nav-item");
+$(".nav-item").mouseenter(function() {
+$(this).addClass(".highlight");
+$(this).removeClass(".nav-item");
 });
 });
 
 $(document).ready(function() {
-$(".highlight").hover(function() {
-$(this).toggleClass(".highlight");
-$(this).toggleClass(".nav-item");
+$(".highlight").mouseleave(function() {
+$(this).removeClass(".highlight");
+$(this).addClass(".nav-item");
 });
 });
 
